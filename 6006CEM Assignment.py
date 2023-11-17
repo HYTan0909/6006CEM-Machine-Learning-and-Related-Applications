@@ -86,7 +86,7 @@ print("Confusion matrix:")
 print(metrics.confusion_matrix(test_y, y_pred))
 
 #doing a test prediction
-test = ["this movie is totally terrible"]
+test = ["this movie is amazing"]
 review = re.sub('[^a-zA-Z]', ' ', test[0])
 review = review.lower()
 review = review.split()
